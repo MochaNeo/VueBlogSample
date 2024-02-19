@@ -7,6 +7,7 @@
     <v-card-text>
       <div v-html="sanitizedBody"></div>
     </v-card-text>
+    <v-card-text>{{  article.detail }}</v-card-text>
   </v-card>
 </template>
 
